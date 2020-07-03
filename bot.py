@@ -143,8 +143,8 @@ while True:
     reply()
     reply_image()
     # A quick nap.... Don't wake me up for 10 sec atleast !|
-    time.sleep(2)  # 10 sec delay
+    time.sleep(10)  # 10 sec delay
 
-follow_followers(api)
+#follow_followers(api)
 c.close()
 conn.close()
